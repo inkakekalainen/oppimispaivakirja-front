@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Etusivu</title>
+    <link rel="stylesheet" href="tyyli.css">
+</head>
+<body>
+<h1>Oppimispäiväkirja</h1>
+<p></p>
+
+
+<p></p>
+<p>Syötä aihe: <input type="text" id="topic"><br></p>
+<p>Syötä aiheen kuvaus: <input type="text" id="description"><br></p>
+<p>Syötä mahdollinen lähde <br> esim web url tai kirja <input type="text" id="source"><br></p>
+<p>Onko opiskeltava aihe kesken:<br></p>
+<input type="radio" id = "done" name="kesken" value="false" checked>kyllä<br>
+<input type="radio" id = "notDone" name="kesken" value="true">ei<br>
+<p>Milloin aihe on luotu: <input type="text" id="creationDate"><br></p>
+<p>Milloin aihe on opiskeltu: <input type="text" id="completionDate"><br></p>
+<p>
+    <button type="button" id="tallenna">Tallenna</button>
+</p>
+<p> <input type = "int" id = "poistettava"><br>
+    <button type=""button" id = "poista">Poista</button></p>
+<hr/>
+<ul id="lista"></ul>
+<script src="oppimispaivakirja.js"></script>
+</body>
+</html>
